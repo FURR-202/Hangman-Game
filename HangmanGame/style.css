@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+body{
+    font-family: "Bungee Spice", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: hsla(177, 85%, 49%, 1);
+
+background: radial-gradient(circle, hsla(177, 85%, 49%, 1) 6%, hsla(236, 86%, 86%, 1) 47%, hsla(272, 98%, 52%, 1) 89%);
+
+background: -moz-radial-gradient(circle, hsla(177, 85%, 49%, 1) 6%, hsla(236, 86%, 86%, 1) 47%, hsla(272, 98%, 52%, 1) 89%);
+
+background: -webkit-radial-gradient(circle, hsla(177, 85%, 49%, 1) 6%, hsla(236, 86%, 86%, 1) 47%, hsla(272, 98%, 52%, 1) 89%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#13E8DD", endColorstr="#BBBFFA", GradientType=1 );
+}
+header{
+    height: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 15% 75%;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+#logo{
+    bottom:80%;
+    right: 90%;
+}
+.btns{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+
+}
+#next-btn{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: right;
+    margin-right: 20px;
+}
+#scores-box{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: left;
+}
+.container{
+    height: 85%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    
+}
+.man-box{
+    height: 450px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.UserInput-box{
+    height: 100px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items:end;
+    justify-content: flex-end;
+    padding-right: 10px;
+    
+}
+.UserInput-box h1{
+    font-family: "Caveat", cursive;
+    font-weight: weight;
+    color:black;
+    font-size:2rem;
+}
+.letter-box{
+    height: 347px;
+    width: 510px;
+    border: 2px solid black;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.letter{
+    font-size:50px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#Union img{
+    height: 300px;
+    width: 130px;
+    position: relative;
+}
+.man-box img{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+}
+.man-box span{
+    position: absolute;
+}
+.man-box svg{
+    position: absolute;
+}
+#hang{
+    margin-right: 30px;
+    margin-bottom: 245px;
+}
+#face{
+    margin-left: 15px;
+    margin-bottom: 115px;
+}
+#body{
+    margin-left: 15px;
+    margin-bottom: 52px;
+}
+
+#right-arm{
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+#left-arm{
+    margin-right: 1.2px;
+    margin-bottom: 40px;
+}
+#left-arm img{
+   height: 15px;
+   width: 10px;
+}
+#right-leg img{
+    height: 15px;
+    width: 10px;
+ }
+ #left-leg img{
+    height: 15px;
+    width: 10px;
+ }
+ #right-leg{
+    margin-left: 55px;
+    margin-top: 9.1px;
+ }
+ #left-leg{
+    margin-left: 23px;
+    margin-top: 8.7px;
+ }
