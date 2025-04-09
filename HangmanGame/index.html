@@ -14,13 +14,22 @@
     <header>
         <img src="../photos/Logo.png" id="logo">
         <img class="btns" src="../photos/Playbutton.png" id="play-btn">
-        <img class="btns" src="../photos/next.png" id="next-btn" onclick="start()">
+        <img class="btns" src="../photos/next.png" id="next-btn" >
         <div id="scores-box">
             <div id="Score"><h2>score : 0</h2></div>
         <div id="Highscore"><h2>Highscore : 0</h2></div>
         </div>
     </header>
         <div class="container">
+            <img class="btns" style="position: absolute; margin-bottom: 550px;" src="../photos/restart.png" id="restart" onclick="restart()">
+            <div class="box" id="win">
+                <h1>You win</h1>
+                <h2 onclick="start()">Next</h2>
+            </div>
+            <div class="box" id="lose">
+                <h1>You Lose</h1>
+                <h2 onclick="start()">Next</h2>
+            </div>
             <div class="man-box">
                 <span id="Union"><img src="../photos/Union.png"></span>
                 <span id="hang">
@@ -34,6 +43,7 @@
                     </svg>
                 </span>
                 <span id="face"><img src="../photos/Property 1=Face.png"></span>
+                <span id="Sadface"><img src="../photos/Sadface.png"></span>
                 <span id="body"><img src="../photos/Property 1=Body.png"></span>
                 <span id="right-arm">  
                 <svg width="10" height="15" viewBox="0 0 64 95" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -51,39 +61,44 @@
                     <h1></h1>
                 </div>
                 <div class="letter-box">
-                    <div id="row1">
-                    <span class="letter" id="Q">Q</span>
-                    <span class="letter" id="W">W</span>
-                    <span class="letter" id="E">E</span>
-                    <span class="letter" id="R">R</span>
-                    <span class="letter" id="T">T</span>
-                    <span class="letter" id="Y">Y</span>
-                    <span class="letter" id="U">U</span>
-                    <span class="letter" id="I">I</span>
-                    <span class="letter" id="O">O</span>
-                    <span class="letter" id="P">P</span>
-                    </div>
-                    <div id="row2">
-                    <span class="letter" id="A">A</span>
-                    <span class="letter" id="S">S</span>
-                    <span class="letter" id="D">D</span>
-                    <span class="letter" id="F">F</span>
-                    <span class="letter" id="G">G</span>
-                    <span class="letter" id="H">H</span>
-                    <span class="letter" id="J">J</span>
-                    <span class="letter" id="K">K</span>
-                    <span class="letter" id="L">L</span>
-                    </div>
-                    <div id="row3">
-                    <span class="letter" id="Z">Z</span>
-                    <span class="letter" id="X">X</span>
-                    <span class="letter" id="C">C</span>
-                    <span class="letter" id="V">V</span>
-                    <span class="letter" id="B">B</span>
-                    <span class="letter" id="N">N</span>
-                    <span class="letter" id="M">M</span>
-                    </div>
+                    <div class="innerBox">
+                        <div id="row1">
+                        <span class="letter" id="Q">Q</span>
+                        <span class="letter" id="W">W</span>
+                        <span class="letter" id="E">E</span>
+                        <span class="letter" id="R">R</span>
+                        <span class="letter" id="T">T</span>
+                        <span class="letter" id="Y">Y</span>
+                        <span class="letter" id="U">U</span>
+                        <span class="letter" id="I">I</span>
+                        <span class="letter" id="O">O</span>
+                        <span class="letter" id="P">P</span>
+                        </div>
+                        <div id="row2">
+                        <span class="letter" id="A">A</span>
+                        <span class="letter" id="S">S</span>
+                        <span class="letter" id="D">D</span>
+                        <span class="letter" id="F">F</span>
+                        <span class="letter" id="G">G</span>
+                        <span class="letter" id="H">H</span>
+                        <span class="letter" id="J">J</span>
+                        <span class="letter" id="K">K</span>
+                        <span class="letter" id="L">L</span>
+                        </div>
+                        <div id="row3">
+                        <span class="letter" id="Z">Z</span>
+                        <span class="letter" id="X">X</span>
+                        <span class="letter" id="C">C</span>
+                        <span class="letter" id="V">V</span>
+                        <span class="letter" id="B">B</span>
+                        <span class="letter" id="N">N</span>
+                        <span class="letter" id="M">M</span>
+                        </div>
+                 </div>
                 </div>
+            </div>
+            <div id="question">
+                <h1></h1>
             </div>
         </div>
     
